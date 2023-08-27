@@ -79,7 +79,7 @@ function ContactForm() {
            <textarea
           placeholder="Message"
           value={message}
-          onChange={(e) => setMessage(e.target.value)} className="textarea"> </textarea></div>
+          onChange={(e) => setMessage(e.target.value)} className="textarea"></textarea></div>
           <button className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group:">
             <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
               Lets tolk

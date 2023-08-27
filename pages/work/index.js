@@ -35,7 +35,7 @@ const Work = () => {
            initial='hidden'
            animate='show'
            exit='hidden'
-          className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Lorem ipsum dolor sit amet, comsfafsafs sfafasf elit.',
+          className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Lorem ipsum dolor sit amet, comsfafsafs sfafasf elit.,
           </motion.p>
           </div> 
          <motion.div 
