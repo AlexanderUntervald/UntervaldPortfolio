@@ -188,7 +188,7 @@ const About = () => {
                <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4"> 
                {aboutData.map((item, itemIndex) => (
   <div
-    key={itemIndex}
+    key={`about-${itemIndex}`}
     className={`${
       index === itemIndex && 
       'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
@@ -202,7 +202,7 @@ const About = () => {
                <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
                {aboutData[index].info.map((item, itemIndex) => (
   <div
-    key={itemIndex}
+    key={`info-${itemIndex}`}
     className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
   >
     {/* title */}
@@ -212,7 +212,7 @@ const About = () => {
     <div className="flex gap-x-4">
       {/* icons */}
       {item.icons?.map((icon, iconIndex) => (
-        <div key={iconIndex} className="'text-2xl text-white">{icon}</div>
+        <div key={`icon-${iconIndex}`} className="'text-2xl text-white">{icon}</div>
       ))}
     </div>
   </div>
