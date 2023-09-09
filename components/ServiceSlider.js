@@ -68,7 +68,7 @@ const ServiceSlider = () => {
       clickable: true,
     }}
     modules={[FreeMode, Pagination]}
-    className='h-[290px] sm:h-[390px]'
+    className='h-[390px] sm:h-[520px]'
     >
 
       {
